@@ -18,7 +18,9 @@ A Demo of this project can be found at :
 * Weather API
 
 ## Features
-* Detects speech from browser microphone and transcribe speech to text to display on the frontend.
+* Detects speech from browser microphone and transcribe speech to text to display on the frontend
+* Utilizes keywords(listed below) for frontend and backend interactions
+* Accesses current Weather(currently working only for NYC)
 
 ## Use Case
 * Take Notes: clears the input on screen/ start note taking session
@@ -27,12 +29,15 @@ A Demo of this project can be found at :
 * Get the weather: display weather in NYC.
 
 ## Installation
-Run Bundle install
+1. Run Bundle install
 
-Run http-server(in project file)
+2. Run `Rails s -p 4000`
 
-Run Rails s -p 4000
+3. Run `http-server` after staring up Note-it FrontEnd](https://github.com/jyl0725/Note-it-backend)
 
+## EndPoint 
+* Get/Post request allowed to localhost:4000/notes end point.
+![API](https://github.com/jyl0725/Note-it-Frontend/blob/master/src/assets/API.png?raw=true)
 
 
 Click on Start Button to start taking notes
